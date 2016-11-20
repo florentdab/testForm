@@ -1,0 +1,7 @@
+test_form_album:
+    resource: "@TestFormBundle/Resources/config/routing/album.yml"
+    prefix:   /album
+
+test_form_homepage:
+    path:     /
+    defaults: { _controller: TestFormBundle:TestForm:index }
